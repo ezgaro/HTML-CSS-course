@@ -1,0 +1,35 @@
+main {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.cubes {
+  display: grid;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  grid-template-columns: 150px 100px;
+  grid-template-rows: 250px 150px 50px;
+  gap: 10px;
+}
+
+.black-block {
+  background-color: black;
+}
+.red-block {
+  background-color: red;
+  /* align-self: flex-end; */
+}
+
+.purple-block {
+  background-color: purple;
+  /* flex-grow: 1; */
+}
+
+.green-block {
+  background-color: green;
+}
+
+.blue-block {
+  background-color: blue;
+}
