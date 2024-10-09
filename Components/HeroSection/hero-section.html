@@ -28,7 +28,11 @@
       header {
         height: 100vh;
         position: relative;
-        background-image: url(hero.jpg);
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
         background-size: cover;
         color: #fff;
       }
@@ -37,6 +41,7 @@
         font-weight: 700;
         display: flex;
         justify-content: space-between;
+        padding-top: 32px;
         /* background-image: linear-gradient(red, blue); */
       }
       .header-container {
