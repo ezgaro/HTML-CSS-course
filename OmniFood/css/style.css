@@ -54,6 +54,29 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /*************************/
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -220,4 +243,16 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/*************************/
+/* HOW IT WORKS SECTION */
+/*************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
